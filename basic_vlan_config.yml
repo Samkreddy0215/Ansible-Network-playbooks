@@ -1,0 +1,11 @@
+---
+- name: Configure VLAN
+  hosts: switches
+  gather_facts: no
+
+  tasks:
+    - name: Create VLAN 10
+      ios_vlan:
+        vlan_id: 10
+        name: USERS
+        state: present
