@@ -23,3 +23,13 @@ Automating enterprise network operations using Ansible for multi-vendor environm
 - Zero Touch Provisioning
 - Automated Change Validation
 - AI-assisted Automation
+
+## Automation Workflow
+
+1. Build Inventory
+2. Configure Group Variables
+3. Secure Credentials with Ansible Vault
+4. Execute Playbooks
+5. Validate Configuration Changes
+6. Generate Reports
+7. Maintain Logs and Documentation
